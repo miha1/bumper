@@ -19,12 +19,12 @@ async function bump(version, out) {
     );
 }
 
-async function generateNotes(pluginConfig, context) {
-    bump(context.nextRelease.version, pluginConfig.file);
-}
-
-// async function prepare(pluginConfig, context) {
+// async function generateNotes(pluginConfig, context) {
 //     bump(context.nextRelease.version, pluginConfig.file);
 // }
 
-module.exports = {generateNotes};
+async function prepare(pluginConfig, context) {
+    bump(context.nextRelease.version, pluginConfig.file);
+}
+
+module.exports = {prepare};
