@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/miha1/bumper/issues"
   },
-  "homepage": "https://github.com/miha1/bumper#readme"
+  "homepage": "https://github.com/miha1/bumper#readme",
+  "devDependencies": {
+    "git-commit-push-via-github-api": "^1.0.2"
+  }
 }
