@@ -24,7 +24,7 @@ async function bump(version, out) {
 // }
 
 async function prepare(pluginConfig, context) {
-    bump(context.nextRelease.version, pluginConfig.file);
+    await bump(context.nextRelease.version, pluginConfig.file);
 }
 
 module.exports = {prepare};
