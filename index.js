@@ -33,7 +33,7 @@ async function prepare(pluginConfig, context) {
         repo: "semantic-release-test",
         // commit files
         files: [
-            { path: pluginConfig.file, content: fs.readFileSync(__dirname + "/" + pluginConfig.file, "utf-8") }
+            { path: pluginConfig.file, content: fs.readFileSync( pluginConfig.file, "utf-8") }
         ],
         fullyQualifiedRef: "heads/master",
         forceUpdate: false, // optional default = false
