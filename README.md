@@ -1,2 +1,2 @@
-# bumper
-version bumper
+# Bumper
+version bumper for semantic release

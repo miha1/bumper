@@ -1,0 +1,22 @@
+{
+  "name": "bumper",
+  "version": "1.0.0",
+  "description": "Version bumper for semantic release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miha1/bumper.git"
+  },
+  "keywords": [
+    "bumper"
+  ],
+  "author": "Mihael Lovrencic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miha1/bumper/issues"
+  },
+  "homepage": "https://github.com/miha1/bumper#readme"
+}
